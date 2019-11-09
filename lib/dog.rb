@@ -2,11 +2,9 @@ class Dog
   attr_accessor :name
   attr_reader :bark
   
-  def initialize(name)
-    @name = name
+  def name=(dog_name)
+    @name = dog_name
   end
-  
-  
   
   def bark
     puts "Woof!"
@@ -14,4 +12,4 @@ class Dog
 end
 
 
-fido = Dog.new("Fido")
+fido = Dog.new
