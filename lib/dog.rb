@@ -1,5 +1,5 @@
 class Dog 
-   attr_reader :name, :bark 
+   attr_reader :bark 
    attr_accessor :name
   
   def bark
