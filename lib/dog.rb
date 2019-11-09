@@ -1,8 +1,10 @@
 class Dog 
-  attr_accessor :name
-  attr_reader :bark
-  
- 
+   attr_accessor :name, :year
+
+  def initialize(name, year)
+    @name = name
+    @year = year
+  end
   
   def bark
     puts "Woof!"
