@@ -1,6 +1,6 @@
 class Dog 
-   attr_reader :name, :year 
-   attr_writer :name, :year
+   attr_reader :name, :bark 
+   attr_writer :name
   
   def bark
     puts "Woof!"
@@ -9,4 +9,4 @@ end
 
 
 fido = Dog.new
-fido.new = "Fido"
+fido.name = "Fido"
