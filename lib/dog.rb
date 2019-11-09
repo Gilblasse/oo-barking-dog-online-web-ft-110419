@@ -1,6 +1,6 @@
 class Dog 
    attr_reader :name, :bark 
-   attr_writer :name
+   attr_accessor :name
   
   def bark
     puts "woof!!"
